@@ -1,0 +1,115 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Segoe UI", system-ui, sans-serif; font-size: 14px; line-height: 1.6; background: #ffffff; color: #1f2328; padding: 32px 16px; }
+  .container { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .sub { color: #57606a; font-size: 13px; margin-bottom: 28px; }
+  .step { display: flex; gap: 16px; margin-bottom: 24px; align-items: flex-start; }
+  .num { width: 32px; height: 32px; border-radius: 50%; background: #3b82d4; color: #fff; font-size: 15px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 2px; }
+  .step-body { flex: 1; }
+  .step-title { font-size: 15px; font-weight: 700; color: #1f2328; margin-bottom: 4px; }
+  .step-desc { font-size: 13.5px; color: #57606a; line-height: 1.6; }
+  .mock-btn { display: inline-block; background: #3b82d4; color: #fff; border-radius: 6px; padding: 6px 14px; font-size: 13px; font-weight: 600; margin: 6px 0; }
+  .mock-key-wrong { display: inline-block; background: #fef3c7; border: 1.5px solid #f59e0b; color: #92400e; border-radius: 6px; padding: 6px 14px; font-size: 12.5px; font-family: monospace; margin: 6px 0; }
+  .mock-key-correct { display: inline-block; background: #d1fae5; border: 1.5px solid #10b981; color: #065f46; border-radius: 6px; padding: 6px 14px; font-size: 12.5px; font-family: monospace; margin: 6px 0; }
+  .label-wrong { font-size: 11px; font-weight: 700; color: #ef4444; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px; }
+  .label-correct { font-size: 11px; font-weight: 700; color: #10b981; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px; }
+  .mock-screen { background: #f7f8fa; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px 20px; margin: 10px 0; font-size: 13px; }
+  .mock-screen-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: #57606a; margin-bottom: 10px; }
+  .mock-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .mock-key-text { font-family: monospace; font-size: 12.5px; background: #fff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 5px 10px; flex: 1; }
+  .mock-copy { background: #3b82d4; color: #fff; border: none; border-radius: 5px; padding: 5px 10px; font-size: 12px; cursor: pointer; }
+  .arrow { font-size: 20px; color: #3b82d4; margin: 0 4px; }
+  .warning { background: #fef3c7; border: 1.5px solid #f59e0b; border-radius: 8px; padding: 12px 16px; font-size: 13px; color: #92400e; margin: 16px 0; }
+  .success { background: #d1fae5; border: 1.5px solid #10b981; border-radius: 8px; padding: 12px 16px; font-size: 13px; color: #065f46; margin: 16px 0; }
+  .divider { border: none; border-top: 1px solid #e5e7eb; margin: 28px 0; }
+  .url-box { background: #f7f8fa; border: 1px solid #e5e7eb; border-radius: 8px; padding: 10px 16px; font-family: monospace; font-size: 13px; color: #3b82d4; margin: 8px 0; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e5e7eb; text-align: center; font-size: 12px; color: #57606a; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>How to Get Your Gemini API Key</h1>
+  <p class="sub">Follow these exact steps — takes less than 2 minutes</p>
+
+  <div class="warning">
+    ⚠️ <strong>Your current key is wrong.</strong> It starts with <code>Ab8RN...</code> — a valid Gemini key always starts with <strong>AIza</strong>.
+  </div>
+
+  
+  <div class="step">
+    <div class="num">1</div>
+    <div class="step-body">
+      <div class="step-title">Open this exact URL in your browser</div>
+      <div class="url-box">https://aistudio.google.com/apikey</div>
+      <div class="step-desc">Sign in with your Google / Gmail account if asked.</div>
+    </div>
+  </div>
+
+  
+  <div class="step">
+    <div class="num">2</div>
+    <div class="step-body">
+      <div class="step-title">Click "Create API key"</div>
+      <div class="step-desc">You'll see a blue button like this:</div>
+      <div><span class="mock-btn">+ Create API key</span></div>
+      <div class="step-desc" style="margin-top:6px">Then in the popup, click <strong>"Create API key in new project"</strong></div>
+    </div>
+  </div>
+
+  
+  <div class="step">
+    <div class="num">3</div>
+    <div class="step-body">
+      <div class="step-title">Copy the key that appears</div>
+      <div class="step-desc">A box will appear with your key. Click the copy icon next to it:</div>
+      <div class="mock-screen">
+        <div class="mock-screen-title">Your API Key</div>
+        <div class="mock-row">
+          <span class="mock-key-text">AIzaSyD3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span>
+          <button class="mock-copy">Copy</button>
+        </div>
+      </div>
+      <div class="step-desc">✅ The key <strong>must start with AIza</strong></div>
+    </div>
+  </div>
+
+  
+  <div class="step">
+    <div class="num">4</div>
+    <div class="step-body">
+      <div class="step-title">Check what you're copying — right vs wrong</div>
+      <div style="margin:8px 0">
+        <div class="label-wrong">❌ Wrong (what you pasted before)</div>
+        <div class="mock-key-wrong">AQ.Ab8RN6LfOuSNFHRll_VAFDehHHQk...</div>
+      </div>
+      <div style="margin:8px 0">
+        <div class="label-correct">✅ Correct (what you need)</div>
+        <div class="mock-key-correct">AIzaSyD3xxxxxxxxxxxxxxxxxxxxxxxxx</div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="step">
+    <div class="num">5</div>
+    <div class="step-body">
+      <div class="step-title">Send the key to Bob in the chat</div>
+      <div class="step-desc">Just paste your copied key in the chat message — Bob will put it in the right file automatically.</div>
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <div class="success">
+    ✅ Once you paste a key starting with <strong>AIza</strong>, Bob will update the file and restart the server. The chatbot will be fully AI-powered!
+  </div>
+
+  <footer>Made with IBM Bob</footer>
+</div>
+</body>
+</html>
