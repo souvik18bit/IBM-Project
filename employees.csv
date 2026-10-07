@@ -1,0 +1,16 @@
+employee_id,first_name,last_name,department,job_title,salary,currency,email,location
+1,John,Smith,Engineering,Software Engineer,95000,USD,john.smith@company.com,New York
+2,Jane,Doe,Engineering,Senior Software Engineer,120000,USD,jane.doe@company.com,San Francisco
+3,Michael,Johnson,Marketing,Marketing Manager,85000,USD,michael.johnson@company.com,Chicago
+4,Emily,Davis,Human Resources,HR Specialist,65000,USD,emily.davis@company.com,Austin
+5,Robert,Brown,Finance,Financial Analyst,78000,USD,robert.brown@company.com,New York
+6,Sarah,Wilson,Engineering,DevOps Engineer,105000,USD,sarah.wilson@company.com,Seattle
+7,David,Taylor,Sales,Sales Representative,60000,USD,david.taylor@company.com,Dallas
+8,Laura,Anderson,Design,UX Designer,90000,USD,laura.anderson@company.com,San Francisco
+9,James,Thomas,Finance,Accountant,72000,USD,james.thomas@company.com,Chicago
+10,Olivia,Martinez,Engineering,QA Engineer,80000,USD,olivia.martinez@company.com,Austin
+11,William,Garcia,Sales,Sales Manager,95000,USD,william.garcia@company.com,Los Angeles
+12,Sophia,Lee,Marketing,Content Strategist,70000,USD,sophia.lee@company.com,New York
+13,Daniel,White,Engineering,Backend Developer,110000,USD,daniel.white@company.com,Seattle
+14,Isabella,Harris,Design,Graphic Designer,68000,USD,isabella.harris@company.com,Los Angeles
+15,Matthew,Clark,Human Resources,HR Manager,88000,USD,matthew.clark@company.com,Dallas
