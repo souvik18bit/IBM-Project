@@ -156,8 +156,8 @@ The UI ships with a **fully themeable design system** (light/dark mode), smooth 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/souvik18bit/IBM-Project.git
-cd IBM-Project
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
 
 # 2. Install dependencies
 npm install
@@ -313,6 +313,6 @@ Verify your .gitignore includes .env, .env.local, and .env.*.local.
 
 Add screenshots to docs/screenshots/ and update the image paths.
 
-Replace souvik18bit/IBM-Project/ in the clone URL with your actual GitHub path.
+Replace <your-username>/<your-repo> in the clone URL with your actual GitHub path.
 
 Rotate your Gemini API key if it was ever accidentally committed to git history — get a fresh one here.
